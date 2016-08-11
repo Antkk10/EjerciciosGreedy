@@ -8,7 +8,9 @@ El lenguaje de programación utilizado es python. Si veis algún tipo de error o
 Tengo que comentar que es la primera vez que comienzo a programar en python, así que no te pongas demasiado nervioso si ves cosas poco comunes :P. En los comentarios sobre el código, no he puesto ninguna tilde ya que si no me equivoco tendría que instalar el paquete que permite ASCII y como podeis comprobar no lo tengo instalado.
 
 Ejercicios:
+
 Ejercicio 1 a --> mochilaEjercicio1.py
+
 Ejercicio 1 b --> mochilaLibrosEjercicio1.2.py
 
 Enunciado 1:
