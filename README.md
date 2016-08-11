@@ -16,6 +16,8 @@ Enunciado 1:
 Aplique el algoritmo dado para el problema de la mochila en los siguientes casos:
 a) M = 15, V = [ 10 5 15 7 6 18 3 ]
     P = [ 2 3 5 7 1 4 1 ].
+
+
 b) Seleccione un lote de 100 libros, lo más barato posible, de entre los siguientes lotes
 
   Lote de 25 volúmenes 65.000 Ptas./Lote
