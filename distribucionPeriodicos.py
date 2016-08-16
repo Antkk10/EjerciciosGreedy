@@ -15,6 +15,15 @@ from Queue import PriorityQueue
 	coste que conecta con uno de los vertices seleccionados.
 """
 
+"""
+	Funcion que crea el camino a cada nodo usando el algoritmo de Prim. Recibe dos parametros,
+	caminos que es un map y que cada clave contiene un vector con dos campos, el primero
+	los kms desde el nodo origen (llave) hasta el nodo destino que es representado en el segundo
+	campo. El parametro padre es un map que la llave representa el nodo destino y esta asociada
+	a un valor que representa el nodo origen. 
+	Lo que se pretende con esta funcion es asignar los nodos origen en el map padre para poder
+	obtener un camino ramificado.
+"""
 def Prim(caminos, padre):
 
 	#Obtenemos el nodo ratiz que es el mismo en el map padre
@@ -34,7 +43,7 @@ def Prim(caminos, padre):
 		
 
 
-
+	# Construimos el camino para cada nodo
 	while not cola.empty():
 		# Obtenemos la distancia, destino y origen de la distancia mas corta.
 		dist, dest, org = cola.get()
@@ -42,14 +51,19 @@ def Prim(caminos, padre):
 		if padre[dest] == 0:
 			# Actualizamos el padre del destino
 			padre[dest] = org
-			# Insertamos todos los hijos del destino
+			# Insertamos todos los hijos del destino en la cola
 			for i in caminos[dest]:
 				cola.put((i[0], i[1], dest))
 				
 
 
+"""
+	Funcion que se utiliza para mostrar el camino que va desde el nodo origen
+	hasta un nodo concreto.
+	El parametro padre representa un map con los caminos a cada nodo.
+"""
 def MostrarRuta(padre):
-
+	# Obtenemos el nodo raiz,
 	raiz = 0
 
 	for i in padre:
@@ -58,20 +72,22 @@ def MostrarRuta(padre):
 			break
 	
 	for i in padre:
-		print "-----"
-		pila = []
+		# pila es una lista que usamos como heap
+		pila = [] 
 		fin = False
+		# j son los nodos que iremos metiendo en la pila
 		j = i
 		while True:
 			pila.append(j)
+			# Hemos llegado al nodo origen, salimos de while
 			if j == raiz:
 				break
 			else:
 				j = padre[j]
 
-
-		numElementos = len(pila)
-
+		
+		numElementos = len(pila) # Numero de elementos de la pila
+		# Mostramos el camino del nodo origen hasta el nodo i
 		print "El camino hacia ", i, " es el siguiente: "
 		for i in range(0, numElementos):
 			print pila.pop()
