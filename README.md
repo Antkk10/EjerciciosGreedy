@@ -13,6 +13,8 @@ Ejercicio 1 a --> mochilaEjercicio1.py
 
 Ejercicio 1 b --> mochilaLibrosEjercicio1.2.py
 
+Ejercicio 2 --> distribucionPeriodicos.py
+
 Enunciado 1:
 
 Aplique el algoritmo dado para el problema de la mochila en los siguientes casos:
@@ -27,7 +29,12 @@ b) Seleccione un lote de 100 libros, lo más barato posible, de entre los siguie
   Lote de 100 volúmenes 270.000 Ptas./Lote
   Lote de 80 volúmenes 160.000 Ptas./Lote
 
+Enunciado 2:
 
+Se quiere establecer una red de distribución de periódicos desde la ciudad A a otras 10
+ciudades. Las distancias entre ellas en Kms. Obtenga una red de
+distribución óptima para:  la distribución se va ramificando a través de las ciudades. La distancia entre ciudades así como
+los nodos entre una ciudad y otra están en el main del ejercicio.
 
 
 
