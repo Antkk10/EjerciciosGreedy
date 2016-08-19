@@ -15,6 +15,8 @@ Ejercicio 1 b --> mochilaLibrosEjercicio1.2.py
 
 Ejercicio 2 --> distribucionPeriodicos.py
 
+Ejercicio 3 --> obtenerPozos.py
+
 Enunciado 1:
 
 Aplique el algoritmo dado para el problema de la mochila en los siguientes casos:
@@ -36,6 +38,8 @@ ciudades. Las distancias entre ellas en Kms. Obtenga una red de
 distribución óptima para:  la distribución se va ramificando a través de las ciudades. La distancia entre ciudades así como
 los nodos entre una ciudad y otra están en el main del ejercicio.
 
+Enunciado 3:
 
+Un vértice p de un grafo dirigido G = (V,A) se dice que es un pozo o sumidero si hay arcos en el grafo que lo tienen como extremo y ninguno como origen. Diseñe un algoritmo que detecte la presencia de pozos en un grafo G.
 
 Contacto: antoniomfc90@gmail.com
