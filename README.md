@@ -17,6 +17,8 @@ Ejercicio 2 --> distribucionPeriodicos.py
 
 Ejercicio 3 --> obtenerPozos.py
 
+Ejercicio 4 --> embarcadero.py (Con python 3)
+
 Enunciado 1:
 
 Aplique el algoritmo dado para el problema de la mochila en los siguientes casos:
@@ -41,5 +43,18 @@ los nodos entre una ciudad y otra están en el main del ejercicio.
 Enunciado 3:
 
 Un vértice p de un grafo dirigido G = (V,A) se dice que es un pozo o sumidero si hay arcos en el grafo que lo tienen como extremo y ninguno como origen. Diseñe un algoritmo que detecte la presencia de pozos en un grafo G.
+
+Enunciado 4:
+
+	Sobre un rio navegable hay n embarcaderos. En cada uno de ellos se puede
+	alquilar un bote que permite ir a cualquier otro embarcadero rio abajo(ya
+	que es imposible ir rio arriba). Existe una tabla de tarifas T[i, j]
+	que indica el coste del viaje del embarcadero i al j para cualquier embarcadero
+	de partida i y cualquier embarcadero de llegada j mas abajo del rio (i < j)
+
+	Puede suceder que un viaje de i a j sea más caro que una sucesión de viajes
+	más cortos, en cuyo caso se tomaria un primer bote hasta un embarcadero k 
+	y un segundo bote para continuar a partir de k. No hay coste adicional
+	por cambiar de bote.
 
 Contacto: antoniomfc90@gmail.com
